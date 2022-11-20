@@ -1,0 +1,94 @@
+\babel@toc {british}{}\relax 
+\contentsline {chapter}{Contents}{iii}{chapter*.1}%
+\contentsline {chapter}{List of Figures}{v}{chapter*.2}%
+\contentsline {chapter}{List of Tables}{vii}{chapter*.3}%
+\contentsline {chapter}{List of Listings}{ix}{chapter*.4}%
+\contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Not a Series of Summaries}{1}{section.1.1}%
+\contentsline {section}{\numberline {1.2}Read All the Papers and Research Some More}{1}{section.1.2}%
+\contentsline {section}{\numberline {1.3}Dividing up the Field}{1}{section.1.3}%
+\contentsline {section}{\numberline {1.4}Composing a Title and Abstract}{1}{section.1.4}%
+\contentsline {section}{\numberline {1.5}Double-Sided Printing}{2}{section.1.5}%
+\contentsline {section}{\numberline {1.6}Single Children}{2}{section.1.6}%
+\contentsline {section}{\numberline {1.7}Make Captions Carry the Story Too}{2}{section.1.7}%
+\contentsline {section}{\numberline {1.8}Avoid Orphan Floats}{2}{section.1.8}%
+\contentsline {chapter}{\numberline {2}Screen Readers}{3}{chapter.2}%
+\contentsline {section}{\numberline {2.1}JAWS}{3}{section.2.1}%
+\contentsline {section}{\numberline {2.2}NVDA}{3}{section.2.2}%
+\contentsline {section}{\numberline {2.3}VoiceOver}{3}{section.2.3}%
+\contentsline {section}{\numberline {2.4}Narrator}{3}{section.2.4}%
+\contentsline {section}{\numberline {2.5}TalkBack}{3}{section.2.5}%
+\contentsline {section}{\numberline {2.6}Screen Readers Comparison}{3}{section.2.6}%
+\contentsline {chapter}{\numberline {3}Hierarchy Browsers}{5}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Node-Link Hierarchy Browsers}{5}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}Layered}{5}{subsection.3.1.1}%
+\contentsline {subsection}{\numberline {3.1.2}Radial}{5}{subsection.3.1.2}%
+\contentsline {section}{\numberline {3.2}Space-Filling Hierarchy Browsers}{5}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Layered}{5}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}Radial}{5}{subsection.3.2.2}%
+\contentsline {subsection}{\numberline {3.2.3}Inclusive}{5}{subsection.3.2.3}%
+\contentsline {subsection}{\numberline {3.2.4}Overlapping}{5}{subsection.3.2.4}%
+\contentsline {section}{\numberline {3.3}Evaluating Hierarchy Browsers}{5}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}Formative Studies}{5}{subsection.3.3.1}%
+\contentsline {subsection}{\numberline {3.3.2}Comparative Studies}{5}{subsection.3.3.2}%
+\contentsline {chapter}{\numberline {4}Academic Writing}{7}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Academic Criteria}{7}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Academic Integrity}{7}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}Plagiarism}{7}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.2}Breach of Copyright}{8}{subsection.4.2.2}%
+\contentsline {section}{\numberline {4.3}Acceptable Use}{8}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}Paraphrasing (Indirect Quotation)}{8}{subsection.4.3.1}%
+\contentsline {subsection}{\numberline {4.3.2}Quoting Text (Direct Quotation)}{9}{subsection.4.3.2}%
+\contentsline {subsection}{\numberline {4.3.3}Quoting Images}{9}{subsection.4.3.3}%
+\contentsline {subsection}{\numberline {4.3.4}Attribution and Permission}{10}{subsection.4.3.4}%
+\contentsline {section}{\numberline {4.4}References}{10}{section.4.4}%
+\contentsline {subsection}{\numberline {4.4.1}Cleaning Downloaded Bib Entries}{10}{subsection.4.4.1}%
+\contentsline {subsection}{\numberline {4.4.2}What to Reference}{13}{subsection.4.4.2}%
+\contentsline {subsection}{\numberline {4.4.3}Citing}{14}{subsection.4.4.3}%
+\contentsline {chapter}{\numberline {5}Language and Writing Style}{15}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Paragraphs}{15}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Some Basic Rules of English}{15}{section.5.2}%
+\contentsline {section}{\numberline {5.3}English Usage}{17}{section.5.3}%
+\contentsline {section}{\numberline {5.4}Clear Writing}{18}{section.5.4}%
+\contentsline {section}{\numberline {5.5}Avoiding Gender Bias}{19}{section.5.5}%
+\contentsline {section}{\numberline {5.6}When to use Capitalisation}{20}{section.5.6}%
+\contentsline {subsection}{\numberline {5.6.1}Titles and Headings}{20}{subsection.5.6.1}%
+\contentsline {subsection}{\numberline {5.6.2}Captions}{21}{subsection.5.6.2}%
+\contentsline {subsection}{\numberline {5.6.3}Chapters, Sections, Figures and Tables}{21}{subsection.5.6.3}%
+\contentsline {section}{\numberline {5.7}Use a Spelling Checker}{21}{section.5.7}%
+\contentsline {section}{\numberline {5.8}Use a Dictionary}{21}{section.5.8}%
+\contentsline {section}{\numberline {5.9}Use a Thesaurus}{21}{section.5.9}%
+\contentsline {chapter}{\numberline {6}Giving a Presentation}{23}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Types of Presentation}{23}{section.6.1}%
+\contentsline {section}{\numberline {6.2}Guidelines for Presentations}{23}{section.6.2}%
+\contentsline {section}{\numberline {6.3}Guidelines for Effective Slides}{24}{section.6.3}%
+\contentsline {subsection}{\numberline {6.3.1}Usability}{24}{subsection.6.3.1}%
+\contentsline {subsection}{\numberline {6.3.2}Minimise Distractions}{24}{subsection.6.3.2}%
+\contentsline {subsection}{\numberline {6.3.3}Slide Content}{24}{subsection.6.3.3}%
+\contentsline {subsection}{\numberline {6.3.4}Academic Criteria}{24}{subsection.6.3.4}%
+\contentsline {chapter}{\numberline {7}Technical Realisation}{25}{chapter.7}%
+\contentsline {section}{\numberline {7.1}LaTeX}{25}{section.7.1}%
+\contentsline {subsection}{\numberline {7.1.1}Literature and Online Resources}{25}{subsection.7.1.1}%
+\contentsline {subsection}{\numberline {7.1.2}Installing \LaTeXe }{25}{subsection.7.1.2}%
+\contentsline {subsection}{\numberline {7.1.3}Installing Extra \LaTeXe Packages}{25}{subsection.7.1.3}%
+\contentsline {subsection}{\numberline {7.1.4}Running \LaTeXe }{26}{subsection.7.1.4}%
+\contentsline {subsection}{\numberline {7.1.5}Spell Checking}{26}{subsection.7.1.5}%
+\contentsline {subsection}{\numberline {7.1.6}Integrated Development Environments (IDEs) for \LaTeXe }{27}{subsection.7.1.6}%
+\contentsline {section}{\numberline {7.2}Including Images}{27}{section.7.2}%
+\contentsline {subsection}{\numberline {7.2.1}Screenshots}{27}{subsection.7.2.1}%
+\contentsline {subsection}{\numberline {7.2.2}Diagrams and Charts}{27}{subsection.7.2.2}%
+\contentsline {section}{\numberline {7.3}Including Listings}{28}{section.7.3}%
+\contentsline {section}{\numberline {7.4}Biblatex and Biber}{28}{section.7.4}%
+\contentsline {chapter}{\numberline {8}Selected Examples of Doing Things with \LaTeXe \ (and Test of Extremely Long Chapter Titles to See How They Work Or Not) }{29}{chapter.8}%
+\contentsline {section}{\numberline {8.1}Including Screenshots}{29}{section.8.1}%
+\contentsline {section}{\numberline {8.2}Using Subfigures}{29}{section.8.2}%
+\contentsline {section}{\numberline {8.3}Including Vector Graphics}{29}{section.8.3}%
+\contentsline {section}{\numberline {8.4}Using Tables}{31}{section.8.4}%
+\contentsline {section}{\numberline {8.5}Using Special Characters and Symbols}{31}{section.8.5}%
+\contentsline {section}{\numberline {8.6}Using Macros to Style Special Names}{31}{section.8.6}%
+\contentsline {section}{\numberline {8.7}Using Floating Listings}{31}{section.8.7}%
+\contentsline {section}{\numberline {8.8}Using Non-Floating Diplayed Listings}{32}{section.8.8}%
+\contentsline {section}{\numberline {8.9}Using Inline Listings}{32}{section.8.9}%
+\contentsline {section}{\numberline {8.10}Using Lists}{32}{section.8.10}%
+\contentsline {chapter}{\numberline {9}Concluding Remarks}{35}{chapter.9}%
+\contentsfinish 
