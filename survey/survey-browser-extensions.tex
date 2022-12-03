@@ -1,0 +1,97 @@
+\chapter{Browser Extensions for Accessibility Auditing}
+
+\label{chap:Intro}
+
+Using browser extensions is one way to audit the accessibility of websites.
+This paper evaluates five different extensions for accessibility auditing: axe DevTools, Accessibility Insights for Web, Google Lighthouse, Siteimprove and WAVE.
+Three of the tools we have selected for this paper use the \emph{axe-core} library, which is an open-source accessibility engine for automated web UI testing.
+As a result, many of the tools will give similar results and the main difference between the extensions is how the list of accessibility issues is presented and what additional features are offered.
+The library allows accessibility auditing to Web Content Accessibility Guidelines (WCAG) 2.0 and 2.1 on the levels A and AA.
+
+Most of the browser extensions evaluated in this paper are completely free.
+Only one of the tools evaluated in this paper offers a paid version of the extension with additional features.
+
+\begin{table}[tp]
+\tablestretch
+\rowcolors{2}{}{tablerowcolour}
+\centering
+\begin{tabularx}{\linewidth}
+{>{\kern-\tabcolsep}lllXX<{\kern-\tabcolsep}}
+\toprule
+\textbf{Extension} & \textbf{Browser} & \textbf{Licence} & \textbf{Downloads\footnotemark}
+\\
+\midrule
+axe DevTools & Chrome, Edge & Free, commercial & 210000 \\
+%
+Accessibility Insights for Web & Chrome, Edge & Free, open-source & 120000 \\
+%
+Google Lighthouse & Chrome (built-in) & Free, open-source & 900000\footnotemark \\
+%
+Siteimprove Accessibility Checker & Chrome, Firefox, Edge, Opera & Free & 30000 \\
+%
+WAVE Evaluation Tool & Chrome, Firefox, Edge & Free & 520000 \\
+\bottomrule
+\end{tabularx}
+\caption[Browser Extensions Information]
+{
+Browser extensions information \\
+% TODO: Figure out how to use \footnotetext here
+\textsuperscript{1}\text{Data collected from Chrome Web Store, Opera Addons, Firefox Add-ons and Microsoft Edge Add-ons.} \\
+\textsuperscript{2}\text{Google Lighthouse is built-in into Google Chrome, so the actual number of users may be significantly higher.}
+}
+\label{tab:browser-extensions-info}
+\footnotetext{test}
+\end{table}
+
+\section{axe DevTools}
+Axe DevTools is a tool for auditing accessibility developed by Deque Systems Inc.
+The browser extension is based on the \emph{axe-core} underlying library for auditing the accessibility, but also offers some additional stricter audit rules compared to the base \emph{axe-core} library, allowing validation according to WCAG 2.1 AAA.
+The extension is available for Chrome and Edge.
+The Deque website contains a link to the axe DevTools extension for Firefox, but at the time of writing this paper it does not seem to work.
+
+There are three different plans available, Free, Pro and Enterprise.
+The free version has a limited set of features and mostly consists of only the automated testing of accessibility.
+The Pro version costs \$40 per month and offers additional features, such as guided manual tests, partial accessibility testing and exporting of accessibility issues.
+Lastly, the Enterprise version of axe DevTools offers even more features, for example CI/CD integration and custom rules.
+
+
+\section{Accessibility Insights for Web}
+Accessibility Insights for Web is a browser extension for accessibility auditing using Chrome or Edge.
+The extension offers two different audit methods, automated checking, known as FastPass, and manual assessment.
+The FastPass automated check provides accessibility auditing using the the axe-core library.
+The accessibility issues are then visible in a list and can be exported as an HTML report or directly to GitHub Issues or Azure Boards for easy integration in the development process.
+Another feature available in the extension is the visualization of accessibility issues directly on the web page.
+This allows scrolling the web page to see where accessibility issues occur .
+The manual assessment in the browser extension consists of extensive step-by-step instructions for auditing the accessibility manually.
+Of the browser extensions evaluated in this paper, Accessibility Insights for Web is the only free tool to offer support for manual testing.
+
+
+\section{Google Lighthouse}
+Google Lighthouse is a the most popular tool for auditing accessibility, which is included in Google Chrome.
+Lighthouse, like the previous browser extensions, is also based on the \emph{axe-core} library.
+For auditing accessibility, Lighthouse offers a relatively basic set of features, and relies heavily on integration with Chrome DevTools and external references for accessibility issue descriptions.
+Accessibility issues are presented as a list of what accessibility checks have passed and which ones have failed.
+The user can then see descriptions about the accessibility issues and see where in the HTML code they occur.
+Reports of the accessibility audit can be saved as JSON.
+
+\section{Siteimprove Accessibility Checker}
+Siteimprove Accessibility Checker is the least used accessibility audit browser extension out of the extensions in this survey.
+The extension presents the accessibility issues, where you can expand each issue to read the description of it and highlight the element on the web page.
+Some features that the extension offers, that the other extensions do not offer is simulation of color blindness and excellent filtering of accessibility issues.
+The list of issues can be filtered by difficulty, role, WCAG level and HTML element type.
+However, one feature that is not offered is the possibility of exporting the audit report.
+
+\section{WAVE Evaluation Tool}
+The WAVE evaluation tool is another extension for auditing accessibility, supporting Chrome, Firefox and Edge.
+The extension functions somewhat differently than the other extensions, as the tool is embedded directly on the web page.
+It then inserts icons for elements that fail or succeed in the accessibility checks.
+The user can then scroll the web page and click the icons to learn more about the accessibility issue.
+
+\section{Showcase videos}
+For each of the browser extension, we have recorded videos to showcase the extension and their features.
+Using each extension, we performed an accessibility audit of http://www.gov.uk/ http://www.mirror.co.uk/.
+The showcase videos for axe DevTools \parencite{axe_ext_vid}, Accessibility Insights for Web \parencite{aiweb_ext_vid}, Google Lighthouse \parencite{lighthouse_ext_vid}, Siteimprove Accessibility Checker \parencite{siteimprove_ext_vid}, WAVE Evaluation tool are available online \parencite{wave_ext_vid}.
+
+\section{Browser Extensions Conclusion}
+TODO: add conclusion
+
