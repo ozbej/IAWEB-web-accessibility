@@ -1,0 +1,90 @@
+%----------------------------------------------------------------
+%
+%  File    :  survey-intro.tex
+%
+%  Author  :  Keith Andrews, IICM, TU Graz, Austria
+% 
+%  Created :  27 May 1993
+% 
+%  Changed :  16 Nov 2010
+% 
+%----------------------------------------------------------------
+
+
+\chapter{Web Tools For Accessibility Audits}
+
+\label{chap:WebTools}
+
+
+
+Web tools for accessibility audits provide core auditing functionality to anyone interested. The amount of tools in this category is large, where most of these tools come to the same conclusions for an audited web page regardless to the level of detail. This is due to several factors, one being that many of these web tools are using the same core library to assess the accessibility of a given web site. In the case of web accessibility, this library is called axe-core which is provided by the Deque company.
+
+In this survey the tools that are inspected closely are but a fraction of the tools that are currently available on the web. The chosen tools were selected in a way, which enables a closer look at tools that run with the axe core library and without. Additionally the selection also tries to show the different qualities of each choice and what can be expected when someone tries to use these tools online.
+
+In this survey our selection of web tools for accessibility audits consists of the following: Accessi, WAVE and Page Speed Insights which is the web tool equivalent to the Lighthouse browser extension. All of the mentioned web tools will be discussed in further detail in the following sections. For each of these three tools there were also videos created, which demonstrates the features and the functionality of each of the tools. The videos also give a quick overview of the metrics that were used to determine the accessibility of the tested web sites. 
+
+\section{Accessi}
+JAWS is the most popular screen reader for Windows computers, however, it has a learning curve. JAWS has a lot of shortcuts and hotkeys that a user has to get used to in order to operate JAWS efficiently. JAWS has the most configurable options among the reviewed screen readers. JAWS is only available as paid software, either as an enterprise or single-use package (90 EUR a year or approximately 900 EUR as a one-time purchase). JAWS demands a lot of the computer's RAM and can occasionally slow the computer down. JAWS supports 10 languages.
+
+\section{WAVE}
+
+NVDA is the second most popular screen reader for Windows computers. NVDA is available as free and open-source software. NVDA is a good free alternative to JAWS, however, it is not as configurable as JAWS. NVDA has a lot of shortcuts and hotkeys that a user has to get used to in order to operate NDVA efficiently. NVDA supports 63 languages.
+
+\section{Page Speed Insights aka. Lighthouse}
+
+VoiceOver is free and comes included with all Apple products. VoiceOver requires no installation or setup. VoiceOver is user-friendly and configurable. The learning curve takes some effort since VoiceOver is not operated the same way as typical mobile phone users are used to. Voice is operated by multiple special gestures (for example double finger drag, triple finger drag). VoiceOver supports 64 languages.
+
+\section{Showcase videos}
+We recorded showcase videos for each screen reader. We used the screen readers on \url{https://www.gov.uk/}, which is a good example of web accsessibility site, and on \url{https://www.mirror.co.uk/} site, which is a bad example of web accessibilit site.
+Showcase videos:
+\begin{itemize}
+	\item Accessi
+	\begin{itemize}
+		\item gov.uk: \url{https://youtu.be/aX_vK0JpYZE}
+		\item: mirror.co.uk: \url{https://youtu.be/4zxA2TmmN_A}
+	\end{itemize}
+	\item WAVE
+	\begin{itemize}
+		\item gov.uk: \url{https://youtu.be/oTBNtaBVXM0}
+		\item: mirror.co.uk: \url{https://youtu.be/SY2njevCTuI}
+	\end{itemize}
+	\item Page Speed Insights (Lighthouse)
+	\begin{itemize}
+		\item gov.uk: \url{https://youtu.be/UBPnCozggK4}
+		\item: mirror.co.uk: \url{https://youtu.be/_4sDqR2oT0c}
+	\end{itemize}
+\end{itemize}
+
+\section{Web Tools For Accesibility Audits Conclussion}
+
+A comparison of information can be seen in  Table~\ref{tab:screen-readers-info}. All screen readers in question, except Narrator, are maintained regularly. JAWS, NVDA, and Narrator are available on Windows, VoiceOver is available on iOS and macOS, and TalkBack is available on Android. JAWS supports 10 languages while other screen readers support between 49 and 64 languages. JAWS is the only screen reader available as paid software while other screen readers are available as free software (NVDA and TalkBack are also open-source). Windows users have 3 options: JAWS, NVDA, and Narrator. The most popular paid option for Windows is JAWS, and the most popular free option for Windows is NVDA. iOS and macOS users can use VoiceOver, and Android users can use TalkBack.
+
+\begin{table}[tp]
+\tablestretch
+\rowcolors{2}{}{tablerowcolour}
+\centering
+\begin{tabularx}{\linewidth}
+{>{\kern-\tabcolsep}lllXX<{\kern-\tabcolsep}}
+\toprule
+\textbf{Screen reader} & \textbf{Last update} & \textbf{System} & \textbf{Licence} & \textbf{No. of lang.} \\
+\midrule
+JAWS & 25. 10. 2022 & Windows & Commercial & 10 \\
+%
+NVDA & 1. 3. 2022 & Windows & Free and open-source & 63 \\
+%
+VoiceOver & 24. 10. 2022 & iOS, macOS & Free & 64 \\
+%
+Narrator & 2020 & Windows & Free & 49 \\
+%
+TalkBack & 27. 10. 2022 & Android & Free and open-source & 63 \\
+\bottomrule
+\end{tabularx}
+
+\caption[Screen Readers Information]
+{
+Screen readers information
+}
+\label{tab:screen-readers-info}
+\end{table}
+
+
