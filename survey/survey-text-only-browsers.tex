@@ -64,5 +64,82 @@ In this section there is provided practical examples and an interesting data  of
 \subsection[tb-showcase]{}
 There is showcase video in YouTube, where is shown what it looks like when browsing the web with the Lynx text browser. In the video it is shown two examples gov.uk and mirror.co.uk, which represents an examples of good and bad web accessibility. Both videos are quite similar in structure, just tabbing through the sites and entering the links, but that way it is easy to recognize the probles with the first glance in the mirror.co.uk website. Link to the showcase video is provided in reference \textcite{tb-showcase}.
 \subsection[tb-screenshots]{Screenshots of Text Browsers}
-Following images presents how efficient a text browsers actually could be. In the case of mirror.co.uk, even if there is plenty of images and advertisements, the text browsers are able to present the content somehow sensible. In this area, most interesting examples is Lynx and WebbIE. Others are more or less similar than the Lynx - only thing to consider is, that W3M and Links works responsively inside of CLI, Lynx does not.
+Following images presents how efficient a text browsers actually could be. In the case of mirror.co.uk, even if there is plenty of images and advertisements, the text browsers are able to present the content somehow sensible. In this area, most interesting examples is Lynx and WebbIE. Others are more or less similar than the Lynx - only thing to consider is, that W3M and Links works responsively inside of CLI, Lynx does not. 
 
+\begin{figure}[tp]
+    \begin{minipage}{0.48\linewidth}
+        \centering
+        \includegraphics[keepaspectratio,width=\linewidth]
+        {images/lynx-gov}
+        
+        \caption[Lynx browser]
+        {%
+        Browsing the gov.uk website
+        }
+        \label{fig:lynx-gov}
+    \end{minipage}\hfill
+    \begin{minipage}{0.48\linewidth}
+        \centering
+        \includegraphics[keepaspectratio,width=\linewidth]
+        {images/lynx-mirror}
+        
+        \caption[Lynx browser]
+        {%
+        Browsing the mirror.co.uk website
+        }
+        \label{fig:lynx-mirror}
+    \end{minipage}
+\end{figure}
+
+\begin{figure}[tp]
+    \begin{minipage}{0.48\linewidth}
+        \centering
+        \includegraphics[keepaspectratio,width=\linewidth]
+        {images/webbie-gov}
+        
+        \caption[WebbIE browser]
+        {%
+        Browsing the gov.uk website
+        }
+        \label{fig:webbie-gov}
+    \end{minipage}\hfill
+    \begin{minipage}{0.48\linewidth}
+        \centering
+        \includegraphics[keepaspectratio,width=\linewidth]
+        {images/webbie-mirror}
+        
+        \caption[WebbIE browser]
+        {%
+        Browsing the mirror.co.uk website
+        }
+        \label{fig:webbie-mirror}
+    \end{minipage}
+\end{figure}
+
+\subsection[tb-tables]{Basic Data About Text-Only Browsers}
+\begin{table}[tp]
+    \tablestretch
+    \rowcolors{2}{}{tablerowcolour}
+    \centering
+    \begin{tabularx}{\linewidth}
+    {>{\kern-\tabcolsep}llXX<{\kern-\tabcolsep}}
+    \toprule
+    \textbf{Browser} & \textbf{Last update} & \textbf{System} & \textbf{Licence} \\
+    \midrule
+    Lynx & 2020, Feb, 27 (v2.9.0) & Linux & Free \\
+    %
+    WebbIE & 2021, Dec, 23 (v5.1.0) & Windows & Free \\
+    %
+    W3M & 2022, Sep, 17 (v2.28) & Linux & Free \\
+    %
+    Links & 2022, Sep, 17 (v2.28) & Linux & Free \\
+    %
+    \bottomrule
+    \end{tabularx}
+    
+    \caption[Screen Readers Information]
+    {
+    Information of text browsers
+    }
+    \label{tab:text-browsers-info}
+\end{table}
