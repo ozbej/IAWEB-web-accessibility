@@ -1,0 +1,215 @@
+
+G4 Checking Web Accessibility
+=============================
+
+
+
+
+
+v1
+--
+
+
+
+o junk files
+
+  diagrams/
+
+  images/
+    texnic.png
+    tugorg.png
+
+  bib-files.txt
+  example.bib
+  ivis.bib
+  kandrews.bib
+  latex.bib
+  presentations.bib
+  README.txt
+
+  tools.bib
+  writing.bib
+
+
+  latex temp files
+
+
+  only include your own bib files  in survey.tex
+
+  \addbibresource{survey-text-browsers.bib}
+  \addbibresource{screen-readers.bib}
+  \addbibresource{browser-extensions.bib}
+  \addbibresource{web-tools.bib}
+
+
+  survey-original.tex
+
+
+
+
+
+o file names
+
+  .PNG  .png
+
+
+
+
+o empty List of Listings
+
+
+
+
+o page 2
+
+figures below one another, plenty of room
+
+
+
+
+o Chap 2
+
+no intro text
+
+
+Text-Only Browsers
+2.1 A Quick Look to the History of Text-Only Browsers
+
+
+2.3 Known Text-Only Browsers
+2.3.1 Lynx
+
+
+
+
+o single child
+
+2.2.1 Common Problems
+
+
+
+
+o reorganise / restructure
+
+2.4 Showcases and Data of Text Browsers
+
+
+
+
+o caption
+
+Table 2.1: Information of text browsers
+
+
+
+o caption
+
+Table 3.1: Screen readers information
+
+
+
+
+o Chap 2 figures in minipage
+
+\begin{figure}[tp]
+    \begin{minipage}{0.48\linewidth}
+
+survey-text-only-browsers.tex
+
+
+
+
+
+o inconsistent titles
+
+Chapter 4
+Browser Extensions for Accessibility Audit-
+ing
+
+Chapter 5
+Web Tools For Accessibility Audits
+
+
+
+
+
+o random newpage
+
+survey-web-tools.tex
+
+\newpage
+
+
+
+
+
+
+o [h] → [tp]
+
+survey-web-tools.tex
+
+\begin{figure}[h!]
+
+in Figure \ref{fig:accessi} below.
+
+
+
+
+
+
+
+
+o No mention of the Build Tools ?
+
+
+
+
+
+
+o bib entries
+
+  browser-extensions.bib
+
+  author       = "{Robin Karlsson}",
+
+  author       = "{}",
+
+
+
+  screen-readers.bib
+
+  author       = "{Ožbej Golob}",
+
+
+  survey-text-browsers.bib → text-browsers.bib
+
+  use "" to delimit fields
+
+  @manual{best-text-browsers,
+    author = {Zeeman Memon},
+    title  = {Best Linux Text-Based Browsers},
+    url    = {https://linuxhint.com/best_linux_text_based_browsers/},
+   urldate = {2022}
+  }
+
+
+  web-tools.bib
+
+  author       = "{Alexander Thien}",
+
+
+
+
+survey-text-browsers.bib
+
+  @manual
+
+  no date fields !!
+
+
+
+videos
+
+  @online  → @video
+
+
