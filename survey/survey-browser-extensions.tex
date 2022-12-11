@@ -1,6 +1,6 @@
 
 \chapter{Browser Extensions for Accessibility Audits}
-\label{chap:Intro}
+\label{chap:extensions}
 
 Using browser extensions is one way to audit the accessibility of
 websites.  This paper evaluates five different extensions for
@@ -18,7 +18,7 @@ A and AA.
 Most of the browser extensions evaluated in this paper are completely free.
 Only axe DevTools offers a paid version of the extension with additional features.
 
-\begin{table}[h]
+\begin{table}[tp]
 \tablestretch
 \rowcolors{2}{}{tablerowcolour}
 \centering
@@ -52,7 +52,7 @@ Browser extensions information \\
 
 \section{axe DevTools}
 Axe DevTools \parencite{axe_devtools} is a tool for auditing accessibility developed by Deque Systems Inc.
-The browser extension is based on the \emph{axe-core} underlying library for auditing the accessibility, but also offers some additional stricter audit rules compared to the base \emph{axe-core} library, allowing validation according to WCAG 2.1 AAA.
+The browser extension, as seen in Figure~\ref{fig:axe-devtools-ext}, is based on the \emph{axe-core} underlying library for auditing the accessibility, but also offers some additional stricter audit rules compared to the base \emph{axe-core} library, allowing validation according to WCAG 2.1 AAA.
 The extension is available for Chrome and Edge.
 The Deque website contains a link to the axe DevTools extension for Firefox, but at the time of writing this paper it does not seem to work.
 
@@ -66,13 +66,13 @@ However, links are provided to the Deque accessibility rule documentation for le
 The element highlighting in the extension is excellent and works better than the highlighting in the rest of the extensions evaluated in this survey.
 
 
-\begin{figure}[h]
+\begin{figure}[tp]
 \centering
 \includegraphics[keepaspectratio,width=\linewidth,height=\halfh]
 {images/axe-devtools-ext.png}
 
 \caption[axe DevTools]{
-The accessibility of https://mirror.co.uk audited using axe DevTools.
+The accessibility of The Mirror~\parencite{MirrorUK} audited using axe DevTools.
 }
 \label{fig:axe-devtools-ext}
 \end{figure}
@@ -87,16 +87,16 @@ Of the browser extensions evaluated in this paper, Accessibility Insights for We
 
 Another feature available in the extension is the visualization of accessibility issues directly on the web page, similar to how WAVE evaluation tool works.
 This allows scrolling the web page to see where accessibility issues occur.
-The visualization, or highlighting, of the elements on the web page works nicely and the descriptions of the accessibility issues are good too.
+The visualization, or highlighting, of the elements on the web page works nicely and the descriptions of the accessibility issues are good too. The extension can be seen in Figure~\ref{fig:insights-ext}.
 
 
-\begin{figure}[h]
+\begin{figure}[tp]
 \centering
 \includegraphics[keepaspectratio,width=\linewidth,height=\halfh]
 {images/insights-ext.png}
 
 \caption[Accessibility Insights for Web]{
-The accessibility of https://mirror.co.uk audited using Accessibility Insights for Web.
+The accessibility of The Mirror~\parencite{MirrorUK} audited using Accessibility Insights for Web.
 }
 \label{fig:insights-ext}
 \end{figure}
@@ -112,16 +112,16 @@ Highlighting of elements with accessibility issues in Lighthouse is not as good 
 In many cases the either the link to the code for the element, or the scrolling to the element do not work.
 The accessibility audit report can be exported as JSON.
 Overall, the extension provides a decent set of features, and is very convenient to use as it is built-in into Chrome.
-However, many of the other extension provide nicer presentation of the accessibility issues.
+However, many of the other extension provide nicer presentation of the accessibility issues. An example of how the extension looks can be seen in Figure~\ref{fig:lighthouse-ext}.
 
 
-\begin{figure}[h]
+\begin{figure}[tp]
 \centering
 \includegraphics[keepaspectratio,width=\linewidth,height=\halfh]
 {images/lighthouse-ext.png}
 
 \caption[Google Lighthouse]{
-The accessibility of https://mirror.co.uk audited using Google Lighthouse.
+The accessibility of The Mirror~\parencite{MirrorUK} audited using Google Lighthouse.
 }
 \label{fig:lighthouse-ext}
 \end{figure}
@@ -135,15 +135,15 @@ The list of issues can also be filtered by difficulty, role, WCAG level and HTML
 Descriptions of the accessibility issues found by the extension are quite short, but links to additional descriptions are provided.
 The extension also provides code examples for examples on how to fix the accessibility issues, but the usefulness of these examples is limited as the example code can not always be applied in real world scenarios.
 Overall, the extension provides a good set of features for auditing the accessibility.
-However, one feature that is not offered, which is offered by other tools, is the possibility of exporting the audit report.
+However, one feature that is not offered, which is offered by other tools, is the possibility of exporting the audit report. The extension can be seen in Figure~\ref{fig:siteimprove-ext}.
 
-\begin{figure}[h]
+\begin{figure}[tp]
 \centering
 \includegraphics[keepaspectratio,width=\linewidth,height=\halfh]
 {images/siteimprove-ext.png}
 
 \caption[Siteimprove Accessibility Checker]{
-The accessibility of https://mirror.co.uk audited using Siteimprove Accessibility Checker.
+The accessibility of The Mirror~\parencite{MirrorUK} audited using Siteimprove Accessibility Checker.
 }
 \label{fig:siteimprove-ext}
 \end{figure}
@@ -158,15 +158,15 @@ As the tool is very interactive, the element highlighting is a fundamental part 
 
 Some special features that WAVE offers are the evaluation of page structure and a tool for contrast checking.
 The extension does not offer exporting of the audit report, which is acceptable considering that the tool relies on scrolling the web page to find the accessibility issues.
-Elements with accessibility issues are somewhat difficult to find in the code in the extension, as the extension uses its own code browser, which can not be resized at all.
+Elements with accessibility issues are somewhat difficult to find in the code in the extension, as the extension uses its own code browser, which can not be resized at all. An example of the extension can be seen in Figure~\ref{fig:wave-ext}.
 
-\begin{figure}[h]
+\begin{figure}[tp]
 \centering
 \includegraphics[keepaspectratio,width=\linewidth,height=\halfh]
-{images/insights-ext.png}
+{images/wave-ext.png}
 
 \caption[WAVE Evaluation Tool]{
-The accessibility of https://mirror.co.uk audited using WAVE Evaluation Tool.
+  The accessibility of The Mirror~\parencite{MirrorUK} audited using WAVE Evaluation Tool.
 }
 \label{fig:wave-ext}
 \end{figure}
@@ -174,7 +174,7 @@ The accessibility of https://mirror.co.uk audited using WAVE Evaluation Tool.
 
 \section{Showcase videos}
 For each of the browser extension, we have recorded videos to showcase the extension and their features.
-Using each extension, we performed an accessibility audit of http://www.gov.uk/ http://www.mirror.co.uk/.
+Using each extension, we performed an accessibility audit of the UK government site~\parencite{GovUK} and The Mirror~\parencite{MirrorUK}.
 The showcase videos for axe DevTools \parencite{axe_ext_vid}, Accessibility Insights for Web \parencite{aiweb_ext_vid}, Google Lighthouse \parencite{lighthouse_ext_vid}, Siteimprove Accessibility Checker \parencite{siteimprove_ext_vid}, WAVE Evaluation tool are available online \parencite{wave_ext_vid}.
 
 \section{Browser Extensions Conclusion}
